@@ -1,7 +1,7 @@
 # Coded@Oluwasegun
 This is a profile web app that showcases my professional interest, work and ways to contact me.
 
-The following image is a landing page that I intended to be very minimalistic, yet interactive. Its simplicity helps to ensure visitors focus on the lings that matter -- my profile.
+The following image is a landing page that I intended to be very minimalistic, yet interactive. Its simplicity helps to ensure visitors focus on the things that matter -- my profile.
 
 ## What you see as you land
 <img width="1916" height="1108" alt="image" src="https://github.com/user-attachments/assets/9ed5a1eb-ce54-4a34-ac5e-9a79c9e0acda" />
