@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import NavLink from "./NavLink";
+import logo from "../assets/codedat.png";
 
 const Header = () => {
   const links = [
@@ -11,11 +12,12 @@ const Header = () => {
 
   return (
     <header className="flex justify-between border-2 border-fuchsia-100 h-20">
-      <div className="py-7 px-3 flex justify-between">
+      <div className="py-7 px-3 flex justify-between items-center">
         <Link to="/" className="px-2 hidden md:block transition-all">
-          <code className="font-extrabold sm:font-semibold sm:text-3xl text-cyan-400">
+          {/* <code className="font-extrabold sm:font-semibold sm:text-3xl text-cyan-400">
             coded@
-          </code>
+          </code> */}
+          <img src={logo} alt="Logo" className="w-20 h-20" />
         </Link>
         <Link to="/" className="">
           <span className="font-bold sm:font-light sm:text-3xl text-fuchsia-400">
@@ -23,7 +25,7 @@ const Header = () => {
           </span>
         </Link>
       </div>
-      <nav className="flex justify-between items-center w-1/3">
+      <nav className="flex justify-between items-center w-1/5">
         {links.map((link, index) => (
           <NavLink key={index} href={link.href} linkName={link.linkName} />
         ))}

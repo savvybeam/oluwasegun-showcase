@@ -1,9 +1,20 @@
+import { useState, useEffect } from "react";
 import Avatar from "./Avatar";
 import Interactions from "./Interactions";
 
 const ContentBody = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
   return (
-    <div className="relative w-90 sm:w-100 mx-auto border-2 border-gray-50 sm:h-1/2 my-auto">
+    <div
+      className={`relative w-90 sm:w-100 mx-auto border-2 border-gray-50 sm:h-1/2 my-auto transition-all delay-100 duration-200 ease-in-out ${
+        isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-50"
+      } `}
+    >
       <div className="flex justify-between">
         <Interactions
           interactionname={"Capabilities"}
