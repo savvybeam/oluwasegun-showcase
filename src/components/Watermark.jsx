@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from "react";
+import { useMemo } from "react";
 import { technologies } from "../helpers/technologies.js";
 
 export default function Watermark() {

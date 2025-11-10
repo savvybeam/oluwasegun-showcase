@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Interactions = ({ interactionlink, interactionname, svgpath }) => {
   let [color, setColor] = useState("");
@@ -21,7 +22,7 @@ const Interactions = ({ interactionlink, interactionname, svgpath }) => {
   }, []);
 
   return (
-    <a href={interactionlink}>
+    <Link to={interactionlink}>
       <div className="group flex justify-between w-30 items-center h-auto">
         <span className={color}>{interactionname}</span>
         <span className="sm:hidden sm:group-hover:block transition delay-300 duration-400 ease-in-out">
@@ -35,7 +36,7 @@ const Interactions = ({ interactionlink, interactionname, svgpath }) => {
           </svg>
         </span>
       </div>
-    </a>
+    </Link>
   );
 };
 
