@@ -1,3 +1,19 @@
+# Coded@Oluwasegun
+This is a profile web app that showcases my professional interest, work and ways to contact me.
+
+The following image is a landing page that I intended to be very minimalistic, yet interactive. Its simplicity helps to ensure visitors focus on the lings that matter -- my profile.
+
+## What you see as you land
+<img width="1916" height="1108" alt="image" src="https://github.com/user-attachments/assets/9ed5a1eb-ce54-4a34-ac5e-9a79c9e0acda" />
+
+## What you see if you hover my Center of attraction profile photo
+<img width="1912" height="1031" alt="image" src="https://github.com/user-attachments/assets/9368746e-ba07-4e3e-ae75-a4e8311f0669" />
+
+## What you see if you click on the surround in-page navigation
+### This navigation will change to central, header-based navigation when you click on a link
+A bouncing SVG image on each navigation link to call your attention and nudge you on
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/f84925c7-8785-4e44-8d2b-f4cf1b2d330b" />
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
