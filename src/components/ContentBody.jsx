@@ -35,7 +35,7 @@ const ContentBody = () => {
       <div className="relative group">
         <a href="/resume" title="Download my resume">
           <Avatar
-            styles="mx-auto w-50 h-50 sm:w-75 sm:h-75 rounded-full border-4 border-r-15 border-r-purple-300 my-20 transition delay-200 duration-400 ease-in-out saturate-200 sm:grayscale-200 sm:hover:grayscale-0 sm:hover:saturate-200 cursor:pointer"
+            styles="animate-pulse mx-auto w-50 h-50 sm:w-75 sm:h-75 rounded-full border-4 border-r-15 border-r-purple-300 my-20 transition delay-200 duration-400 ease-in-out saturate-200 sm:grayscale-200 sm:hover:grayscale-0 sm:hover:saturate-200 cursor:pointer"
             src="https://ps-profile-pictures-production.s3.us-west-2.amazonaws.com/profile-pictures/a0866c59-4ad9-442a-a59b-4f068d50a0a2?time=1761204381054"
             alt="Codedat Owner"
           />
